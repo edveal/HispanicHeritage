@@ -161,8 +161,8 @@ Please turn it on to take full advantage of this site, then refresh the page.
 
 <script type="text/javascript">
     jwplayer("myElement").setup({
-        file: "media/OH0595.mp4",
-        image: "images/OH0595.JPG",
+        file: "media/FILENAME.mp4", /* Replace FILENAME with new file name for new video */
+        image: "images/FILENAME.JPG",  /* Replace FILENAME with new file name for new thumbnail */
 		controls: true,
 		width: 320,
       height: 240
@@ -179,9 +179,6 @@ Please turn it on to take full advantage of this site, then refresh the page.
 
 <div class="disclaimer">
 
- <!-- <div class="alert"><strong>The Oral History Streaming Video presentations are currently offline, we are working to address this problem and hope to have it resolved as soon as possible. We do apologize for this inconvenience.</strong></div>
-<br />
--->
 <p><strong>DISCLAIMER</strong><br />
 </p>
 <p><a href="javascript:void(0);" onclick="javascript:showlayer('myName')" onmouseup="javascript:showlayer2('notice')">I have read and accept the disclaimer terms</a><br />
@@ -204,13 +201,13 @@ Requests for copies or for permission to quote for publication should be  direct
 <div class="col-sm-4">
 
 	<div class="transcript1">
-				  <p><strong>Interview with: Rodarte, Luis</strong><br />
-				  <strong>Interviewed by: Selley, Mikaela; Adalba, Edith; Valdez, Martin</strong>: <br />
-					Date: 3/10/2017 <br />
-					Archive Number: </strong></p>
-					<!--<p><a href="javascript:void(0);" onclick="jwplayer(myElement).seek(192)"><img border="0" alt="cue point" align="absmiddle" src="media/watch2.gif" width="21" height="25" /></a><br />
-					<br /> -->
-				  </p>
+				  <p><strong>Interview with: INTERVIEWEE </strong><br />  <!-- Name of Interviewee -->
+				  <strong>Interviewed by: INTERVIEWER </strong>: <br />  <!-- Name of Interviewer -->
+					Date:  <br />   <!-- ADD Date -->
+					Archive Number: <br />   <!-- ADD Archive Number -->
+                   </p>
+					
+				  
 	</div>
 
 </div>
